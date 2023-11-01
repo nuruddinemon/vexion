@@ -1,0 +1,112 @@
+/* General */
+.get_app {
+  background: url(../img/get-app-bg.png) center center;
+  box-shadow: 0px 0px 35px 0px rgba(160, 151, 180, 0.5);
+}
+.tiny_title {
+  background: linear-gradient(90deg, #f4f1f7 40%, #adbbea 50%, #dde2f2 55%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.signIn {
+  background: linear-gradient(0deg, #000 0%, #000 100%),
+    linear-gradient(
+      0deg,
+      rgba(255, 255, 255, 0) 0%,
+      rgba(255, 255, 255, 0.05) 100%
+    );
+  box-shadow: 0px 10px 25px 0px rgba(230, 221, 254, 0.1) inset;
+}
+.signUp {
+  box-shadow: 0px 0px 35px 0px rgba(160, 151, 180, 0.5);
+}
+/* header area area */
+
+header .h2_title h2 {
+  background: url(../img/Satellite-Internet.png),
+    lightgray -272.8px 7.887px / 149.769% 81.098% no-repeat;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+header .learn_more {
+  border-radius: 99px;
+  border: 1px solid #e6ddfe;
+  background: linear-gradient(0deg, #000 0%, #000 100%),
+    linear-gradient(
+      0deg,
+      rgba(255, 255, 255, 0) 0%,
+      rgba(255, 255, 255, 0.05) 100%
+    );
+  box-shadow: 0px 10px 25px 0px rgba(230, 221, 254, 0.1) inset;
+}
+
+header .get_app {
+  background: url(../img/CTA-XL.png) center center;
+  box-shadow: 0px 0px 35px 0px rgba(160, 151, 180, 0.5);
+}
+
+@media (max-width: 640px) {
+  header{
+    background-image: none !important;
+  }
+}
+
+/* universal area */
+#universal .uni_col {
+  background: linear-gradient(
+      0deg,
+      rgba(255, 255, 255, 0) 0%,
+      rgba(255, 255, 255, 0.05) 100%
+    ),
+    #05050a;
+  box-shadow: 0px 10px 25px 0px rgba(230, 221, 254, 0.1) inset;
+}
+
+/* Horizontal phone */
+.slide_nav ul button {
+  background: linear-gradient(
+    0deg,
+    rgba(255, 255, 255, 0) 0%,
+    rgba(255, 255, 255, 0.1) 100%
+  );
+  box-shadow: 0px 10px 25px 0px rgba(230, 221, 254, 0.1) inset;
+}
+
+.slide_nav ul .active {
+  background: #ebddf3;
+}
+
+/* pricing area */
+
+#pricing .check_offer {
+  border: 1px solid #e6ddfe;
+  background: linear-gradient(0deg, #000 0%, #000 100%),
+    linear-gradient(
+      0deg,
+      rgba(255, 255, 255, 0) 0%,
+      rgba(255, 255, 255, 0.05) 100%
+    );
+  box-shadow: 0px 10px 25px 0px rgba(230, 221, 254, 0.1) inset;
+}
+#pricing .get_app {
+  background: url("../img/pricing-cta.png") center center;
+  box-shadow: 0px 0px 35px 0px rgba(160, 151, 180, 0.5);
+}
+#pricing .plan {
+  border-radius: 24px;
+  box-shadow: 0px 10px 25px 0px rgba(230, 221, 254, 0.1) inset;
+}
+#pricing .active_plan {
+  border-radius: 24px;
+  border: 1px solid #e6ddfe;
+  background: linear-gradient(
+    0deg,
+    rgba(255, 255, 255, 0) 0%,
+    rgba(255, 255, 255, 0.05) 100%
+  );
+  box-shadow: 0px 10px 25px 0px rgba(230, 221, 254, 0.1) inset;
+}
